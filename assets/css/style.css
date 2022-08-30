@@ -1,0 +1,290 @@
+/* roboto font import link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* reset code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+  transition: .3s;
+}
+
+.pt-80{
+  padding-top: 80px;
+}
+
+.pb-80{
+  padding-bottom: 80px;
+}
+
+/* header css */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
+.logo{
+  text-align: center;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.menu ul {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: repeat(5, auto);
+  padding-right: 70px;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.menu ul li a:hover {
+  color: #ff7720;
+}
+
+/* banner css */
+
+.banner {
+  border: 3px solid #ddd;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 20px
+  
+}
+/* section title */
+
+.section-title {
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.section-title h4 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+
+.section-title {
+  text-align: center;
+}
+
+/* about css */
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 30px;
+}
+
+.single-about {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 40px 20px;
+}
+
+.single-about i {
+  font-size: 25px;
+  border: 1px solid #ddd;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.single-about h4 {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+
+.single-about p {
+  color: #777;
+  text-transform: capitalize;
+}
+
+.single-about i:hover {
+  color: #ff7720;
+  border-color: #111;
+}
+
+.single-about:hover {
+  border-color: #ff7720;
+}
+
+/* services css */
+
+.service-area {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 20px;
+}
+
+.single-service {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.single-service h4 {
+  font-size: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: teal;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.single-service p {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.single-service a {
+  display: inline-block;
+  background-color: #ff7720;
+  color: #fff;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.single-service a:hover {
+  color: #777;
+  background-color: tomato;
+}
+
+/* gallery area css */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.single-gallery img {
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* contact css */
+
+contact-area {
+  background-color: #f4f4f4;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  column-gap: 20px;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.contact input[type="submit"] {
+  background-color: #ff7720;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: unset;
+  cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: teal;
+  color: #333;
+}
+
+
+.single-address {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 5fr;
+  margin-bottom: 20px;
+}
+
+.single-address i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ff7720;
+  color: #fff;
+}
+
+.single-address h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.single-address h4 span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  display: block;
+  margin-top: 5px;
+}
+
+/* footer css */
+.footer-area {
+  background-color: teal;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+}
